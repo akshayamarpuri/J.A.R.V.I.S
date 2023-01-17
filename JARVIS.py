@@ -246,7 +246,7 @@ class MainThread(QThread):
             #Eg: Jarvis play music
             elif 'music' in self.command:
                 try:
-                    music_dir = 'E:\\music' #change the song path directory if you have songs in other directory
+                    music_dir = 'E:\\New Songs' #change the song path directory if you have songs in other directory
                     songs = os.listdir(music_dir)
                     for song in songs:
                         if song.endswith('.mp3'):
