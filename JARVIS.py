@@ -989,8 +989,8 @@ class MainThread(QThread):
         server = smtplib.SMTP('smtp.gmail.com',587)
         server.ehlo()
         server.starttls()
-        server.login("YOUR_MAIL_ID","PASWORD")
-        server.sendmail("YOUR_MAIL_ID",to,content)
+        server.login("akshay.amarpuri@gmail.com","Akshay2007")
+        server.sendmail("akshay.amarpuri@gmail.com",to,content)
         server.close()
 
     #location
