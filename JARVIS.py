@@ -806,10 +806,10 @@ class MainThread(QThread):
         print(command)
         if 'github' in command:
             self.talk('opening your github')
-            webbrowser.open('https://github.com/BolisettySujith')
+            webbrowser.open('https://github.com/akshayamarpuri')
         elif 'gitlab' in command:
             self.talk('opening your gitlab')
-            webbrowser.open('https://gitlab.com/-/profile')
+            webbrowser.open('https://github.com/akshayamarpuri')
         else :
             self.No_result_found()
 
