@@ -851,31 +851,31 @@ class MainThread(QThread):
             os.startfile('C:\\Windows\\System32\\calc.exe')
         elif ('paint'in command) :
             self.talk('Opening msPaint')
-            os.startfile('c:\\Windows\\System32\\mspaint.exe')
+            os.startfile('C:\\Windows\\SysWOW64\\mspaint.exe')
         elif ('notepad'in command) :
             self.talk('Opening notepad')
-            os.startfile('c:\\Windows\\System32\\notepad.exe')
+            os.startfile('C:\\Windows\\SysWOW64\\notepad.exe')
         elif ('discord'in command) :
             self.talk('Opening discord')
-            os.startfile('..\\..\\Discord.exe')
+            os.startfile('C:\\Users\\ASUS\\AppData\\Local\\Discord\\app-1.0.9008\\Discord.exe')
         elif ('editor'in command) :
             self.talk('Opening your Visual studio code')
-            os.startfile('..\\..\\Code.exe')
+            os.startfile('D:\\My Apps\\Visual code\\Microsoft VS Code\\Code.exe')
         elif ('online classes'in command) :
             self.talk('Opening your Microsoft teams')
             webbrowser.open('https://teams.microsoft.com/')
         elif ('spotify'in command) :
             self.talk('Opening spotify')
-            os.startfile('..\\..\\Spotify.exe')
+            os.startfile('C:\\Users\\ASUS\\AppData\\Roaming\\Spotify\\Spotify.exe')
         elif ('lt spice'in command) :
             self.talk('Opening lt spice')
             os.startfile("..\\..\\XVIIx64.exe")
         elif ('steam'in command) :
             self.talk('Opening steam')
-            os.startfile("..\\..\\steam.exe")
+            os.startfile("D:\\steam\\steam.exe")
         elif ('media player'in command) :
             self.talk('Opening VLC media player')
-            os.startfile("C:\Program Files\VideoLAN\VLC\vlc.exe")
+            os.startfile("C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe")
         else :
             self.No_result_found()
             
@@ -1090,34 +1090,34 @@ class Main(QMainWindow):
     
     #NOTE make sure to place a correct path where you are keeping this gifs
     def startTask(self):
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\ironman1.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\ironman1.gif")
         self.ui.label_2.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\ringJar.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\ringJar.gif")
         self.ui.label_3.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\circle.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\circle.gif")
         self.ui.label_4.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\lines1.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\lines1.gif")
         self.ui.label_7.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\ironman3.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\ironman3.gif")
         self.ui.label_8.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\circle.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\circle.gif")
         self.ui.label_9.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\powersource.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\powersource.gif")
         self.ui.label_12.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\powersource.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\powersource.gif")
         self.ui.label_13.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\ironman3_flipped.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\ironman3_flipped.gif")
         self.ui.label_16.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(rf"{self.cpath}\UI\Sujith.gif")
+        self.ui.movie = QtGui.QMovie(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\Sujith.gif")
         self.ui.label_17.setMovie(self.ui.movie)
         self.ui.movie.start()
         timer = QTimer(self)
