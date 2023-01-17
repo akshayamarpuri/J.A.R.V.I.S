@@ -63,7 +63,7 @@ class Ui_JarvisUI(object):
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(580, 360, 661, 381))
         self.label_3.setText("")
-        self.label_3.setPixmap(QtGui.QPixmap(rf"{self.cpath}D:\\J.A.R.V.I.S\\J.A.R.V.I.S\\UI\\ringJar.gif"))
+        self.label_3.setPixmap(QtGui.QPixmap(rf"{self.cpath}D:\J.A.R.V.I.S\J.A.R.V.I.S\UI\ringJar.gif"))
         self.label_3.setScaledContents(True)
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
